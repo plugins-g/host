@@ -1,0 +1,212 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 23/03/2020 13:30
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-icu:before { content: "\f100"; }
+.flaticon-patient:before { content: "\f101"; }
+.flaticon-first-aid-kit:before { content: "\f102"; }
+.flaticon-ambulance:before { content: "\f103"; }
+.flaticon-cogwheels:before { content: "\f104"; }
+.flaticon-healthcare-and-medical:before { content: "\f105"; }
+.flaticon-checklist:before { content: "\f106"; }
+.flaticon-hospital-bed:before { content: "\f107"; }
+.flaticon-consultation:before { content: "\f108"; }
+.flaticon-research:before { content: "\f109"; }
+.flaticon-medical-stretcher:before { content: "\f10a"; }
+.flaticon-reject:before { content: "\f10b"; }
+.flaticon-fever:before { content: "\f10c"; }
+.flaticon-cleaning:before { content: "\f10d"; }
+.flaticon-icon-857498:before { content: "\f10e"; }
+.flaticon-chemistry:before { content: "\f10f"; }
+.flaticon-blood-bank:before { content: "\f110"; }
+.flaticon-x-ray:before { content: "\f111"; }
+.flaticon-medication:before { content: "\f112"; }
+.flaticon-pharmacy:before { content: "\f113"; }
+.flaticon-work:before { content: "\f114"; }
+.flaticon-process:before { content: "\f115"; }
+.flaticon-hospital:before { content: "\f116"; }
+.flaticon-stethoscope:before { content: "\f117"; }
+.flaticon-hospital-bed-1:before { content: "\f118"; }
+.flaticon-nurse:before { content: "\f119"; }
+.flaticon-injection:before { content: "\f11a"; }
+.flaticon-first-aid-kit-1:before { content: "\f11b"; }
+.flaticon-medical:before { content: "\f11c"; }
+.flaticon-doctor:before { content: "\f11d"; }
+.flaticon-dissection:before { content: "\f11e"; }
+.flaticon-dropper:before { content: "\f11f"; }
+.flaticon-surgery-robot:before { content: "\f120"; }
+.flaticon-surgery-tools:before { content: "\f121"; }
+.flaticon-spyglass:before { content: "\f122"; }
+.flaticon-endoscopy:before { content: "\f123"; }
+.flaticon-pricing:before { content: "\f124"; }
+.flaticon-offer:before { content: "\f125"; }
+.flaticon-hand:before { content: "\f126"; }
+.flaticon-bill:before { content: "\f127"; }
+.flaticon-bills:before { content: "\f128"; }
+.flaticon-debit-card:before { content: "\f129"; }
+.flaticon-credit-card:before { content: "\f12a"; }
+.flaticon-credit-card-1:before { content: "\f12b"; }
+.flaticon-approved:before { content: "\f12c"; }
+.flaticon-approved-1:before { content: "\f12d"; }
+.flaticon-hiring:before { content: "\f12e"; }
+.flaticon-contract:before { content: "\f12f"; }
+.flaticon-approval:before { content: "\f130"; }
+.flaticon-banker:before { content: "\f131"; }
+.flaticon-cashier:before { content: "\f132"; }
+.flaticon-cashier-machine:before { content: "\f133"; }
+.flaticon-shopping-bag:before { content: "\f134"; }
+.flaticon-shopping-basket:before { content: "\f135"; }
+.flaticon-shopping-cart:before { content: "\f136"; }
+.flaticon-cart:before { content: "\f137"; }
+.flaticon-seller:before { content: "\f138"; }
+.flaticon-inventory:before { content: "\f139"; }
+.flaticon-distribution:before { content: "\f13a"; }
+.flaticon-supplier:before { content: "\f13b"; }
+.flaticon-coffee:before { content: "\f13c"; }
+.flaticon-coffee-1:before { content: "\f13d"; }
+.flaticon-technical-support:before { content: "\f13e"; }
+.flaticon-gears:before { content: "\f13f"; }
+.flaticon-tools:before { content: "\f140"; }
+.flaticon-lock:before { content: "\f141"; }
+.flaticon-secure-shield:before { content: "\f142"; }
+.flaticon-padlock:before { content: "\f143"; }
+.flaticon-dashboard:before { content: "\f144"; }
+.flaticon-dashboard-1:before { content: "\f145"; }
+.flaticon-dashboard-2:before { content: "\f146"; }
+.flaticon-performance:before { content: "\f147"; }
+.flaticon-statistics:before { content: "\f148"; }
+.flaticon-maintenance:before { content: "\f149"; }
+.flaticon-repair:before { content: "\f14a"; }
+.flaticon-maintenance-1:before { content: "\f14b"; }
+.flaticon-acquisition:before { content: "\f14c"; }
+.flaticon-assets:before { content: "\f14d"; }
+.flaticon-asset:before { content: "\f14e"; }
+.flaticon-bank:before { content: "\f14f"; }
+.flaticon-calculations:before { content: "\f150"; }
+.flaticon-human-resources:before { content: "\f151"; }
+.flaticon-salary:before { content: "\f152"; }
+.flaticon-airplane:before { content: "\f153"; }
+.flaticon-planning:before { content: "\f154"; }
+.flaticon-motorhome:before { content: "\f155"; }
+    
+    $font-Flaticon-icu: "\f100";
+    $font-Flaticon-patient: "\f101";
+    $font-Flaticon-first-aid-kit: "\f102";
+    $font-Flaticon-ambulance: "\f103";
+    $font-Flaticon-cogwheels: "\f104";
+    $font-Flaticon-healthcare-and-medical: "\f105";
+    $font-Flaticon-checklist: "\f106";
+    $font-Flaticon-hospital-bed: "\f107";
+    $font-Flaticon-consultation: "\f108";
+    $font-Flaticon-research: "\f109";
+    $font-Flaticon-medical-stretcher: "\f10a";
+    $font-Flaticon-reject: "\f10b";
+    $font-Flaticon-fever: "\f10c";
+    $font-Flaticon-cleaning: "\f10d";
+    $font-Flaticon-icon-857498: "\f10e";
+    $font-Flaticon-chemistry: "\f10f";
+    $font-Flaticon-blood-bank: "\f110";
+    $font-Flaticon-x-ray: "\f111";
+    $font-Flaticon-medication: "\f112";
+    $font-Flaticon-pharmacy: "\f113";
+    $font-Flaticon-work: "\f114";
+    $font-Flaticon-process: "\f115";
+    $font-Flaticon-hospital: "\f116";
+    $font-Flaticon-stethoscope: "\f117";
+    $font-Flaticon-hospital-bed-1: "\f118";
+    $font-Flaticon-nurse: "\f119";
+    $font-Flaticon-injection: "\f11a";
+    $font-Flaticon-first-aid-kit-1: "\f11b";
+    $font-Flaticon-medical: "\f11c";
+    $font-Flaticon-doctor: "\f11d";
+    $font-Flaticon-dissection: "\f11e";
+    $font-Flaticon-dropper: "\f11f";
+    $font-Flaticon-surgery-robot: "\f120";
+    $font-Flaticon-surgery-tools: "\f121";
+    $font-Flaticon-spyglass: "\f122";
+    $font-Flaticon-endoscopy: "\f123";
+    $font-Flaticon-pricing: "\f124";
+    $font-Flaticon-offer: "\f125";
+    $font-Flaticon-hand: "\f126";
+    $font-Flaticon-bill: "\f127";
+    $font-Flaticon-bills: "\f128";
+    $font-Flaticon-debit-card: "\f129";
+    $font-Flaticon-credit-card: "\f12a";
+    $font-Flaticon-credit-card-1: "\f12b";
+    $font-Flaticon-approved: "\f12c";
+    $font-Flaticon-approved-1: "\f12d";
+    $font-Flaticon-hiring: "\f12e";
+    $font-Flaticon-contract: "\f12f";
+    $font-Flaticon-approval: "\f130";
+    $font-Flaticon-banker: "\f131";
+    $font-Flaticon-cashier: "\f132";
+    $font-Flaticon-cashier-machine: "\f133";
+    $font-Flaticon-shopping-bag: "\f134";
+    $font-Flaticon-shopping-basket: "\f135";
+    $font-Flaticon-shopping-cart: "\f136";
+    $font-Flaticon-cart: "\f137";
+    $font-Flaticon-seller: "\f138";
+    $font-Flaticon-inventory: "\f139";
+    $font-Flaticon-distribution: "\f13a";
+    $font-Flaticon-supplier: "\f13b";
+    $font-Flaticon-coffee: "\f13c";
+    $font-Flaticon-coffee-1: "\f13d";
+    $font-Flaticon-technical-support: "\f13e";
+    $font-Flaticon-gears: "\f13f";
+    $font-Flaticon-tools: "\f140";
+    $font-Flaticon-lock: "\f141";
+    $font-Flaticon-secure-shield: "\f142";
+    $font-Flaticon-padlock: "\f143";
+    $font-Flaticon-dashboard: "\f144";
+    $font-Flaticon-dashboard-1: "\f145";
+    $font-Flaticon-dashboard-2: "\f146";
+    $font-Flaticon-performance: "\f147";
+    $font-Flaticon-statistics: "\f148";
+    $font-Flaticon-maintenance: "\f149";
+    $font-Flaticon-repair: "\f14a";
+    $font-Flaticon-maintenance-1: "\f14b";
+    $font-Flaticon-acquisition: "\f14c";
+    $font-Flaticon-assets: "\f14d";
+    $font-Flaticon-asset: "\f14e";
+    $font-Flaticon-bank: "\f14f";
+    $font-Flaticon-calculations: "\f150";
+    $font-Flaticon-human-resources: "\f151";
+    $font-Flaticon-salary: "\f152";
+    $font-Flaticon-airplane: "\f153";
+    $font-Flaticon-planning: "\f154";
+    $font-Flaticon-motorhome: "\f155";
