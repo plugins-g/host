@@ -17,7 +17,7 @@
  * 
  *   Documentation: https://mdbootstrap.com/
  */
- /*!
+/*!
   *   Getting started: https://mdbootstrap.com/docs/jquery/getting-started/download/
   * 
   *   Tutorials: https://mdbootstrap.com/education/bootstrap/
@@ -31,7 +31,7 @@
   *   Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js
   */
 
-  
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
@@ -45,11 +45,11 @@
 @font-face {
     font-family: Cairo;
     src: url(../fonts/Cairo-SemiBold.ttf) format('truetype'),
-         url(../fonts/Cairo-Regular.ttf) format('truetype'),
-         url(../fonts/Cairo-Light.ttf) format('truetype'),
-         url(../fonts/Cairo-ExtraLight.ttf) format('truetype'),
-         url(../fonts/Cairo-Bold.ttf) format('truetype'),
-         url(../fonts/Cairo-Black.ttf) format('truetype')
+        url(../fonts/Cairo-Regular.ttf) format('truetype'),
+        url(../fonts/Cairo-Light.ttf) format('truetype'),
+        url(../fonts/Cairo-ExtraLight.ttf) format('truetype'),
+        url(../fonts/Cairo-Bold.ttf) format('truetype'),
+        url(../fonts/Cairo-Black.ttf) format('truetype')
 }
 
 :root {
@@ -337,9 +337,9 @@ ul.stepper li.completed a .white-skin .circle {
     background-color: #191f28;
     background: -webkit-linear-gradient(top, #191f28, #191f28)
 }
+
 /*================*/
-.svg-icon
-{
+.svg-icon {
     width: 30px;
     max-width: 30px;
     cursor: pointer
@@ -349,10 +349,9 @@ ul.stepper li.completed a .white-skin .circle {
     max-width: 40px;
 }
 
-.table .svg-icon
-{
-    width: 35px;
-    max-width: 35px;
+.table .svg-icon {
+    width: 30px;
+    max-width: 30px;
     cursor: pointer
 }
 
@@ -361,8 +360,7 @@ ul.stepper li.completed a .white-skin .circle {
 }
 
 
-img.side-svg
-{
+img.side-svg {
     width: 30px;
     max-width: 30px;
     cursor: pointer
@@ -373,8 +371,7 @@ img.side-svg
     margin-right: 10px;
 }
 
-.sid-svg
-{
+.sid-svg {
     width: 15px;
     margin-right: 10px;
 }
@@ -1170,6 +1167,7 @@ i.fas.fa-vial {
     font-size: 20px;
     cursor: pointer;
 }
+
 /*=============================*/
 .table-responsive {
     display: block;
@@ -1373,9 +1371,8 @@ input.select-dropdown.form-control {
     height: 1.2rem
 }
 
-.custom-control-label
-{
-     padding-top: 4px !important;
+.custom-control-label {
+    padding-top: 4px !important;
 }
 
 .custom-select {
@@ -1648,11 +1645,11 @@ span.k-picker-wrap.k-state-default {
 
 .k-input,
 .k-multiselect-wrap,
-.k-textbox > input, 
- input.k-textbox, 
- input.k-textbox:hover, 
- textarea.k-textbox, 
- textarea.k-textbox:hover {
+.k-textbox>input,
+input.k-textbox,
+input.k-textbox:hover,
+textarea.k-textbox,
+textarea.k-textbox:hover {
     background-color: #edf3fa !important;
     color: #444;
 }
@@ -2014,21 +2011,18 @@ a.btn.btn-success {
     z-index: 9997
 }
 
-#dr-slide .dr-svg
-{
-     margin-right: 10px;
-     width: 30px;
+#dr-slide .dr-svg {
+    margin-right: 10px;
+    width: 30px;
 }
 
-#dr-slide .side-nav .collapsible a
-{
+#dr-slide .side-nav .collapsible a {
     height: 40px !important;
 }
 
-#dr-slide img.dr-svg
-{
-     margin-right: 10px;
-     width: 30px;
+#dr-slide img.dr-svg {
+    margin-right: 10px;
+    width: 30px;
 }
 
 
@@ -3052,8 +3046,7 @@ img.rounded-circle {
 
 /*======================*/
 
-.border-box-style1
-{
+.border-box-style1 {
     position: relative;
     background: #fff;
     border-radius: 5px 5px 0 0;
@@ -3062,8 +3055,7 @@ img.rounded-circle {
     border-top: 3px solid var(--maincolor) !important
 }
 
-.search-box-style1
-{
+.search-box-style1 {
     position: relative;
     background: #fff;
     border-radius: 5px 5px 0 0;
@@ -5969,13 +5961,13 @@ table.table a {
     transition: all 0.5s ease-in-out;
 }
 
-    .time-nav .nav li.nav-link:hover {
-        color: #fff;
-        border: none;
-        border: 1px solid var(--maincolor);
-        background-color: var(--maincolor) !important;
-        background: -webkit-linear-gradient(top,var(--mainbackground),var(--maincolor));
-    }
+.time-nav .nav li.nav-link:hover {
+    color: #fff;
+    border: none;
+    border: 1px solid var(--maincolor);
+    background-color: var(--maincolor) !important;
+    background: -webkit-linear-gradient(top, var(--mainbackground), var(--maincolor));
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {}
