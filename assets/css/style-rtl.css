@@ -36,12 +36,7 @@
 
 @font-face {
     font-family: Cairo;
-    src: url(../fonts/Cairo-SemiBold.ttf) format('truetype'),
-        url(../fonts/Cairo-Regular.ttf) format('truetype'),
-        url(../fonts/Cairo-Light.ttf) format('truetype'),
-        url(../fonts/Cairo-ExtraLight.ttf) format('truetype'),
-        url(../fonts/Cairo-Bold.ttf) format('truetype'),
-        url(../fonts/Cairo-Black.ttf) format('truetype')
+    src: url(../fonts/Cairo-SemiBold.ttf) format('truetype'), url(../fonts/Cairo-Regular.ttf) format('truetype'), url(../fonts/Cairo-Light.ttf) format('truetype'), url(../fonts/Cairo-ExtraLight.ttf) format('truetype'), url(../fonts/Cairo-Bold.ttf) format('truetype'), url(../fonts/Cairo-Black.ttf) format('truetype')
 }
 
 :root {
@@ -581,7 +576,6 @@ a:hover {
     cursor: pointer;
     line-height: 45px !important;
     border-radius: 50%;
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
 }
@@ -1116,11 +1110,9 @@ i.fas.fa-vial {
     border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-    -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     border-top: 3px solid var(--maincolor);
     border-radius: 10px;
-    -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out
 }
 
@@ -1250,8 +1242,6 @@ i.fas.fa-vial {
     border: none;
     border-bottom: 1px solid #ced4da;
     border-radius: 0 !important;
-    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
-    -webkit-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     margin: 5px 0;
     box-shadow: none !important
@@ -1812,7 +1802,6 @@ a.btn.btn-success {
 
 .member-menu .fa-chevron-right {
     position: absolute;
-    -webkit-transform: translate(-5px, -4px);
     transform: translate(-5px, -4px)
 }
 
@@ -1937,7 +1926,6 @@ a.btn.btn-success {
 .nav-item .nav-link .badge-counter,
 .topbar .nav-item .nav-link .badge-counter {
     position: absolute;
-    -webkit-transform: scale(.6);
     transform: scale(.6);
     left: 0px;
     margin-top: -10px;
@@ -2317,7 +2305,6 @@ a.btn.btn-success {
 
 .timeline-content .badge-counter {
     position: absolute;
-    -webkit-transform: scale(.7);
     transform: scale(.7);
     right: 20px;
     z-index: 99;
@@ -2441,6 +2428,17 @@ a.btn.btn-success {
     display: block
 }
 
+table.table a.dropdown-item {
+    color: #424242 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+table.table a.dropdown-item:hover {
+    background: -webkit-linear-gradient(top, var(--mainbackground), var(--maincolor));
+    transition: all 0.5s ease-in-out;
+    color: #fff !important;
+}
+
 table.table td,
 table.table th {
     padding-top: 5px;
@@ -2494,14 +2492,12 @@ table.table.table-hover.table-striped.table-bordered.dataTable.no-footer {
 
 @media only screen and (max-width:1440px) {
     .side-nav.fixed {
-        -webkit-transform: translateX(-100%);
         transform: translateX(-100%)
     }
 }
 
 .side-nav.fixed {
     left: 0;
-    -webkit-transform: translateX(0);
     transform: translateX(0);
     position: fixed
 }
@@ -2526,7 +2522,6 @@ table.table.table-hover.table-striped.table-bordered.dataTable.no-footer {
 
 .member-menu .fa-chevron-right {
     position: absolute;
-    -webkit-transform: translate(-5px, -4px);
     transform: translate(-5px, -4px)
 }
 
@@ -2591,7 +2586,6 @@ table.table.table-hover.table-striped.table-bordered.dataTable.no-footer {
 
 .member-menu .fa-chevron-right {
     position: absolute;
-    -webkit-transform: translate(-5px, -4px);
     transform: translate(-5px, -4px)
 }
 
@@ -2658,10 +2652,10 @@ footer.page-footer {
 }
 
 .footer-logo img {
-    width: 25%;
+    width: 70%;
     position: relative;
     right: 0;
-    top: 15px;
+    top: 20px;
 }
 
 .footer-logo {
@@ -3104,14 +3098,11 @@ img.rounded-circle {
 }
 
 .modal .close-icon:hover i {
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 
 .modal-dialog.modal-notify.modal-info.sweet {
-    -webkit-transform: translate(50px, 80%);
     transform: translate(50px, 80%);
     border-radius: 10px
 }
@@ -3221,7 +3212,6 @@ thead {
     background-color: var(--maincolor);
     background: -webkit-linear-gradient(top, var(--mainbackground), var(--maincolor));
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-    -webkit-transition: all .2s linear;
     transition: all .2s linear
 }
 
@@ -3389,7 +3379,6 @@ th.sorting {
     cursor: pointer;
     background-color: #fff;
     border: 1px solid #e0e0e0;
-    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
 
@@ -3397,7 +3386,6 @@ th.sorting {
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transform: translateY(-1px);
     -webkit-transform: translateY(-1px);
-    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
 
@@ -3435,14 +3423,12 @@ th.sorting {
 
 @media only screen and (max-width:1440px) {
     .side-nav.fixed {
-        -webkit-transform: translateX(-100%);
         transform: translateX(-100%)
     }
 }
 
 .side-nav.fixed {
     right: 0;
-    -webkit-transform: translateX(0);
     transform: translateX(0);
     position: fixed
 }
@@ -3454,7 +3440,6 @@ th.sorting {
     color: #fff;
     background-color: var(--maincolor);
     background: -webkit-linear-gradient(top, var(--mainbackground), var(--maincolor));
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out
 }
 
@@ -3534,7 +3519,6 @@ div#PatientHeader {
 
 .patientheader ul {
     padding: 0;
-    -webkit-transform: translate(-270px, 0);
     transform: translate(-270px, 0)
 }
 
@@ -3546,14 +3530,12 @@ div#PatientHeader {
     text-align: right;
     padding: 6px;
     border-radius: 0 30px 30px 0;
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
     border: 2px solid var(--maincolor)
 }
 
 .patientheader ul li:hover {
-    -webkit-transform: translate(110px, 0);
     transform: translate(110px, 0);
     background: #fff
 }
@@ -3565,9 +3547,7 @@ div#PatientHeader {
 .patientheader ul li:hover i {
     color: #fff;
     background: red;
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out
 }
 
@@ -3581,7 +3561,6 @@ div#PatientHeader {
     width: 50px;
     height: 50px;
     font-size: 20px;
-    -webkit-transform: rotate(0);
     transform: rotate(0)
 }
 
@@ -3594,7 +3573,6 @@ div#PatientHeader {
 
 .timeslot ul {
     padding: 0;
-    -webkit-transform: translate(-270px, 0);
     transform: translate(-270px, 0)
 }
 
@@ -3606,14 +3584,12 @@ div#PatientHeader {
     text-align: right;
     padding: 6px;
     border-radius: 0 30px 30px 0;
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
     border: 2px solid var(--maincolor)
 }
 
 .timeslot ul li:hover {
-    -webkit-transform: translate(110px, 0);
     transform: translate(110px, 0);
     background: #fff
 }
@@ -3625,9 +3601,7 @@ div#PatientHeader {
 .timeslot ul li:hover i {
     color: #fff;
     background: red;
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out
 }
 
@@ -3641,7 +3615,6 @@ div#PatientHeader {
     width: 50px;
     height: 50px;
     font-size: 25px;
-    -webkit-transform: rotate(0);
     transform: rotate(0)
 }
 
@@ -3661,7 +3634,6 @@ span.bednum {
     left: 0;
     font-size: 20px;
     font-weight: 700;
-    -webkit-transform: translate(15px, 5px);
     transform: translate(15px, 5px);
     background: #fff;
     color: #fff !important;
@@ -3675,7 +3647,14 @@ span.bednum {
     border-radius: 50%;
     font-size: 56px;
     position: absolute;
-    left: -30px
+    left: -30px;
+    right: unset !important;
+}
+
+#PatientData .p-2.mt-2 {
+    border-right: 1px solid #bdbdbd;
+    margin: 5px;
+    padding: 0px 15px !important;
 }
 
 span.dot {
@@ -3684,7 +3663,6 @@ span.dot {
 
 span.dot.bedcolor {
     position: absolute;
-    -webkit-transform: translate(90px, 40px);
     transform: translate(90px, 40px)
 }
 
@@ -3777,7 +3755,6 @@ span.sixth.dot {
 }
 
 .ahmed:hover {
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out
 }
 
@@ -3807,7 +3784,6 @@ i.fas.fa-envelope.fa-fw {
     background-color: var(--maincolor) !important;
     background: -webkit-linear-gradient(top, var(--mainbackground), var(--maincolor));
     color: #fff !important;
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     border-color: var(--maincolor) !important
 }
@@ -3839,10 +3815,8 @@ div#RecordStockingQtyGridTable_filter {
 }
 
 .wrapper {
-    display: -webkit-box;
     display: -ms-flexbox;
     width: 100%;
-    -webkit-box-align: stretch;
     align-items: stretch
 }
 
@@ -3851,7 +3825,6 @@ div#RecordStockingQtyGridTable_filter {
     max-width: 200px;
     background: #7386d5;
     color: #fff;
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     margin-right: -210px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
@@ -3868,8 +3841,9 @@ div#RecordStockingQtyGridTable_filter {
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b
+    padding: 20px 0px;
+    border-bottom: 1px solid #112538 !important;
+    text-align: center;
 }
 
 #sidebar ul p {
@@ -3884,8 +3858,8 @@ div#RecordStockingQtyGridTable_filter {
 }
 
 #sidebar ul li a:hover {
-    color: #7386d5;
-    background: #fff
+    color: #fff !important;
+    background: var(--maincolor) !important;
 }
 
 a[data-toggle=collapse] {
@@ -3905,10 +3879,9 @@ a.article:hover {
 
 #sidebarCollapse {
     background-color: var(--maincolor) !important;
-    ;
     box-shadow: none !important;
-    -webkit-transform: rotate(90deg) translate(35px, -155px);
-    transform: rotate(90deg) translate(35px, -155px)
+    transform: rotate(270deg) translate(-29px, -157px) !important;
+
 }
 
 @media (max-width:768px) {
@@ -4085,13 +4058,11 @@ a.article:hover {
 @-webkit-keyframes moveFromTop {
     from {
         opacity: 0;
-        -webkit-transform: translateY(200%);
         transform: translateY(200%)
     }
 
     to {
         opacity: 1;
-        -webkit-transform: translateY(0);
         transform: translateY(0)
     }
 }
@@ -4099,13 +4070,11 @@ a.article:hover {
 @-webkit-keyframes moveFromLeft {
     from {
         opacity: 0;
-        -webkit-transform: translateX(200%);
         transform: translateX(200%)
     }
 
     to {
         opacity: 1;
-        -webkit-transform: translateX(0);
         transform: translateX(0)
     }
 }
@@ -4113,13 +4082,11 @@ a.article:hover {
 @-webkit-keyframes moveFromRight {
     from {
         opacity: 0;
-        -webkit-transform: translateX(-200%);
         transform: translateX(-200%)
     }
 
     to {
         opacity: 1;
-        -webkit-transform: translateX(0);
         transform: translateX(0)
     }
 }
@@ -4467,107 +4434,87 @@ a.article:hover {
 
 @-webkit-keyframes swing {
     0% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 
     10% {
-        -webkit-transform: rotate(10deg);
         transform: rotate(10deg)
     }
 
     30% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 
     40% {
-        -webkit-transform: rotate(-10deg);
         transform: rotate(-10deg)
     }
 
     50% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 
     60% {
-        -webkit-transform: rotate(5deg);
         transform: rotate(5deg)
     }
 
     70% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 
     80% {
-        -webkit-transform: rotate(-5deg);
         transform: rotate(-5deg)
     }
 
     100% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 }
 
 @keyframes swing {
     0% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 
     10% {
-        -webkit-transform: rotate(10deg);
         transform: rotate(10deg)
     }
 
     30% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 
     40% {
-        -webkit-transform: rotate(-10deg);
         transform: rotate(-10deg)
     }
 
     50% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 
     60% {
-        -webkit-transform: rotate(5deg);
         transform: rotate(5deg)
     }
 
     70% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 
     80% {
-        -webkit-transform: rotate(-5deg);
         transform: rotate(-5deg)
     }
 
     100% {
-        -webkit-transform: rotate(0);
         transform: rotate(0)
     }
 }
 
 @-webkit-keyframes sonar {
     0% {
-        -webkit-transform: scale(.9);
         transform: scale(.9);
         opacity: 1
     }
 
     100% {
-        -webkit-transform: scale(2);
         transform: scale(2);
         opacity: 0
     }
@@ -4575,13 +4522,11 @@ a.article:hover {
 
 @keyframes sonar {
     0% {
-        -webkit-transform: scale(.9);
         transform: scale(.9);
         opacity: 1
     }
 
     100% {
-        -webkit-transform: scale(2);
         transform: scale(2);
         opacity: 0
     }
@@ -4598,7 +4543,6 @@ a.article:hover {
 .sidebar-wrapper .sidebar-search .input-group-text,
 .sidebar-wrapper .sidebar-search input.search-menu,
 .sidebar-wrapper ul li a i {
-    -webkit-transition: all .3s ease;
     transition: all .3s ease
 }
 
@@ -4617,7 +4561,6 @@ i.far.fa-hand-point-left.ml-2 {
     border-radius: 0 4px 4px 0;
     width: 50px;
     height: 50px;
-    -webkit-transition-delay: .5s;
     transition-delay: .5s;
     color: #fff !important;
     line-height: 35px;
@@ -4667,9 +4610,7 @@ i.far.fa-hand-point-left.ml-2 {
 
 .sidebar-wrapper .sidebar-brand {
     padding: 10px 20px;
-    display: -webkit-box;
     display: flex;
-    -webkit-box-align: center;
     align-items: center
 }
 
@@ -4822,7 +4763,6 @@ i.far.fa-hand-point-left.ml-2 {
 }
 
 .sidebar-wrapper .sidebar-menu .sidebar-dropdown.active>a:after {
-    -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     left: 17px
 }
@@ -5002,7 +4942,6 @@ textarea#DepositBankRemarks {
         margin-top: 0 !important;
         background-color: #fff !important;
         padding: 25px 35px !important;
-        -webkit-transform: translate(-50px, 100px) !important;
         transform: translate(-50px, 100px) !important
     }
 
@@ -5044,7 +4983,6 @@ textarea#DepositBankRemarks {
         padding: 50px 53px !important;
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
         border-top: 4px solid #4267b2 !important;
-        -webkit-transform: translate(0, 85px) !important;
         transform: translate(0, 85px) !important;
         border-radius: 11px !important;
         margin-top: 0 !important
@@ -5687,7 +5625,6 @@ textarea.k-textbox:hover {
 
 .k-multiselect-wrap .k-input {
     float: right !important;
-
 }
 
 .k-autocomplete.k-state-default,
@@ -5752,7 +5689,6 @@ textarea.k-textbox:hover {
 
 .select-wrapper.md-form.md-outline+label {
     position: absolute;
-    -webkit-transform: translateY(66%);
     transform: translateY(66%);
     right: 23px;
     left: auto;
@@ -5777,7 +5713,6 @@ textarea.k-textbox:hover {
 }
 
 .md-form.md-outline label.active {
-    -webkit-transform: translateY(-13px) scale(.8);
     transform: translateY(-13px) scale(.8);
     background: #fff;
     font-weight: 500;
@@ -5792,13 +5727,8 @@ textarea.k-textbox:hover {
     top: 0;
     right: 0 !important;
     padding-right: 10px;
-    -webkit-transition: color .2s ease-out, -webkit-transform .2s ease-out;
-    transition: color .2s ease-out, -webkit-transform .2s ease-out;
     transition: transform .2s ease-out, color .2s ease-out;
-    transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out;
-    -webkit-transform-origin: 0 100%;
     transform-origin: 0 100%;
-    -webkit-transform: translateY(9px);
     transform: translateY(9px);
     cursor: text;
     color: #757575
@@ -5806,7 +5736,6 @@ textarea.k-textbox:hover {
 
 .md-form.md-outline.form-lg label {
     font-size: 1.25rem;
-    -webkit-transform: translateY(5px);
     transform: translateY(5px)
 }
 
@@ -5828,7 +5757,6 @@ textarea.k-textbox:hover {
 #myTabContentEx .card:hover {
     cursor: pointer;
     background: #2b4170;
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out
 }
 
@@ -5847,7 +5775,6 @@ textarea.k-textbox:hover {
 #myTabContentEx .card i {
     position: absolute;
     left: 0;
-    -webkit-transform: translate(45px, 25px);
     transform: translate(45px, 25px);
     font-size: 40px
 }
@@ -5862,14 +5789,12 @@ div#Data2 .table-responsive {
 
 .card.testimonial-card:hover {
     background: #e5f6ff;
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     cursor: pointer
 }
 
 .card.testimonial-card {
     border-left: 3px solid var(--maincolor) !important;
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     overflow-y: scroll;
     height: 115px
@@ -5910,7 +5835,6 @@ div#Data2 .table-responsive {
 
 .bedmap-page .footer-hover {
     background-color: rgba(0, 0, 0, .1);
-    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
 
@@ -5928,7 +5852,6 @@ div#Data2 .table-responsive {
 }
 
 .bedmap-page .card-body {
-    -webkit-box-flex: 1;
     flex: 1 1 auto;
     min-height: 1px;
     padding: .5rem
@@ -5960,7 +5883,6 @@ table.table a {
 .bedmap-page .bedmap-box .row .card i {
     position: absolute;
     left: 0;
-    -webkit-transform: translate(-8px, 25px);
     transform: translate(15px, 33px);
     font-size: 30px
 }
@@ -6073,6 +5995,20 @@ option:hover {
     height: 2px
 }
 
+.input-spinner-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.input-spinner {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    border: 0.2rem solid rgb(0 40 112 / 65%) !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+}
+
 #nprogress .peg {
     display: block;
     position: absolute;
@@ -6081,8 +6017,6 @@ option:hover {
     height: 100%;
     box-shadow: 0 0 10px var(--maincolor), 0 0 5px var(--maincolor);
     opacity: 1;
-    -webkit-transform: rotate(3deg) translate(0, -4px);
-    -ms-transform: rotate(3deg) translate(0, -4px);
     transform: rotate(3deg) translate(0, -4px)
 }
 
@@ -6144,7 +6078,6 @@ option:hover {
 .time-nav span.nav-link {
     display: -ms-flexbox;
     display: inline-block;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     list-style: none;
     background: #2b4170;
@@ -6202,7 +6135,6 @@ option:hover {
         height: 25px;
         font-size: 15px;
         line-height: 20px;
-
     }
 
     i.far.fa-calendar-alt,
@@ -6259,11 +6191,12 @@ option:hover {
 
     a.btn.btn-primary.p-3.button-collapse.dr-side {
         position: absolute;
-        top: 12%;
-        right: -6px !important;
+        top: 7%;
+        right: -10px !important;
+        left: unset !important;
         z-index: 999;
-        left: unset;
     }
+
 
     #PatientData .media .media-body p.dot {
         width: 15px !important;
@@ -6304,7 +6237,6 @@ option:hover {
         line-height: 35px !important;
         font-size: 15px;
         margin-top: 15px;
-
     }
 
     .grid-list .grid-listing a.nav-link {
@@ -6343,14 +6275,12 @@ option:hover {
     }
 
     #sidebarCollapse {
-        -webkit-transform: rotate(90deg) translate(200px, -145px);
         transform: rotate(90deg) translate(200px, -145px);
     }
 
     .form-control {
         margin: 5px;
     }
-
 }
 
 /* Large devices (desktops, less than 1200px) */
