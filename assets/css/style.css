@@ -193,6 +193,7 @@ body {
     font-size: 14px;
     text-transform: capitalize !important;
     font-weight: 500 !important;
+    font-family: 'Cairo', sans-serif !important;
     /*zoom: 75%;
     zoom: 0.75;*/
     /*-webkit-transition: background-color 800ms ease;
@@ -493,7 +494,8 @@ button.dt-button:hover {
 
 a {
     color: #424242 !important;
-    font-weight: 500
+    font-weight: 600 !important;
+    font-size: 15px !important;
 }
 
 span.ml-2 {
@@ -2053,10 +2055,10 @@ footer.page-footer {
 }
 
 .footer-logo img {
-    width: 25%;
+    width: 70%;
     position: relative;
     right: 0;
-    top: 15px;
+    top: 20px;
 }
 
 .footer-logo {
@@ -2616,6 +2618,17 @@ table.table th {
 
 table.table td p {
     margin-bottom: 0 !important;
+}
+
+table.table a.dropdown-item {
+    color: #424242 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+table.table a.dropdown-item:hover {
+    background: -webkit-linear-gradient(top, var(--mainbackground), var(--maincolor));
+    transition: all 0.5s ease-in-out;
+    color: #fff !important;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
@@ -3885,6 +3898,7 @@ div#RecordStockingQtyGridTable_filter {
     min-width: 200px;
     max-width: 200px;
     background: #e9ecef;
+    background: #fff !important;
     color: #fff;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
@@ -3903,8 +3917,9 @@ div#RecordStockingQtyGridTable_filter {
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b
+    padding: 20px 0px;
+    border-bottom: 1px solid #112538 !important;
+    text-align: center;
 }
 
 #sidebar ul p {
@@ -3919,8 +3934,8 @@ div#RecordStockingQtyGridTable_filter {
 }
 
 #sidebar ul li a:hover {
-    color: #7386d5;
-    background: #fff
+    color: #fff !important;
+    background: var(--maincolor) !important;
 }
 
 a[data-toggle=collapse] {
@@ -5877,6 +5892,20 @@ table.table a {
     -webkit-transform: rotate(3deg) translate(0, -4px);
     -ms-transform: rotate(3deg) translate(0, -4px);
     transform: rotate(3deg) translate(0, -4px)
+}
+
+.input-spinner-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.input-spinner {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    border: 0.2rem solid rgb(0 40 112 / 65%) !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
 }
 
 #nprogress .spinner {
