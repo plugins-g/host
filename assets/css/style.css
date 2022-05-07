@@ -3158,6 +3158,7 @@ img.rounded-circle {
 
 .modal-title {
     color: #333 !important;
+    font-weight: 500;
 }
 
 .modal .close-icon i:hover {
@@ -3232,8 +3233,8 @@ img.rounded-circle {
 }
 
 .small-box-footer p {
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
     margin-bottom: 0
 }
 
@@ -3489,13 +3490,13 @@ a.Text_Blue {
 
 .tab-num {
     border-radius: 50%;
-    padding: 5px 10px;
+    padding: 0 10px;
     margin: 0 5px;
     color: #fff;
     background-color: var(--maincolor) !important;
     background: -webkit-linear-gradient(top, var(--mainbackground), var(--maincolor));
     -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out
+    transition: all .5s ease-in-out;
 }
 
 a.nav-link.dropdown-toggle.waves-effect.waves-light.active>.tab-num {
