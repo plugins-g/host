@@ -1956,21 +1956,21 @@ a.btn.btn-success {
 
 .navbar .heartbeat {
     position: absolute;
-    top: -4px;
-    left: -3px;
-    height: 35px;
-    width: 35px;
+    top: -2px;
+    left: 0;
+    height: 30px;
+    width: 30px;
     z-index: 10;
     border: 4px solid;
     border-color: #ff0101;
     border-radius: 70px;
-    animation: heartbeat 1s ease-out;
-    -moz-animation: heartbeat 1s ease-out;
+    animation: heartbeat 2s ease-out;
+    -moz-animation: heartbeat 2s ease-out;
     -moz-animation-iteration-count: infinite;
-    -o-animation: heartbeat 1s ease-out;
+    -o-animation: heartbeat 2s ease-out;
     -o-animation-iteration-count: infinite;
-    -webkit-animation: heartbeat 1s ease-out;
-    -ms-animation: heartbeat 1s ease-out;
+    -webkit-animation: heartbeat 2s ease-out;
+    -ms-animation: heartbeat 2s ease-out;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
