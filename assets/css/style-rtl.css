@@ -5948,6 +5948,11 @@ table.table a {
     border-top: 2px solid
 }
 
+.bedmap-page .bedmap-box .Seven-box {
+    color: #ff3547;
+    border-top: 2px solid
+}
+
 select.browser-default {
     display: block !important;
     font-family: Cairo, sans-serif !important
