@@ -5855,6 +5855,11 @@ table.table a {
     border-top: 2px solid
 }
 
+.bedmap-page .bedmap-box .Seven-box {
+    color: #ff3547;
+    border-top: 2px solid
+}
+
 #nprogress {
     pointer-events: none
 }
