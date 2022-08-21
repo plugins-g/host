@@ -1324,7 +1324,15 @@
       top: .5em !important;
       z-index: 2 !important
   }
-  
+  .select-wrapper.mdb-select.md-form.colorful-select.dropdown-primary {
+    border: 1px solid #d3e0f5;
+    background-color: #eff5ff !important;
+    padding: 0 10px !important;
+    color: #3060aa;
+    border-radius: 8px !important;
+    transition: all .2s cubic-bezier(.35,0,.25,1);
+    font-size: 14px;
+}
   .clear-padding {
       padding: 0 !important;
       margin: 0 !important
