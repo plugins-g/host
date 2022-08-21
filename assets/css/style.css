@@ -1347,8 +1347,16 @@
   }
   
   input.form-control {
-      background-color: rgb(211 225 244 / 41%) !important;
-  }
+    border: 1px solid #d3e0f5;
+    height: 40px;
+    background-color: #eff5ff;
+    padding: 5px 12px;
+    color: #3060aa;
+    border-radius: 8px !important;
+    transition: all .2s cubic-bezier(.35,0,.25,1);
+    font-size: 14px;
+    line-height: 20px;
+}
   
   input.select-dropdown.form-control {
       background-color: transparent !important;
@@ -1626,6 +1634,41 @@
       background-color: transparent !important
   }
   
+  .k-datepicker,
+.k-dropdown {
+    background: transparent !important;
+    border: 1px solid #d3e0f5;
+    height: 38px;
+    background-color: #eff5ff !important;
+    color: #3060aa !important;
+    border-radius: 8px !important;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+span.k-picker-wrap.k-state-default,
+span.k-dropdown-wrap.k-state-default {
+    background: transparent !important;
+    border: 1px solid #d3e0f5 !important;
+    height: 30px;
+    background-color: #eff5ff !important;
+    padding: 5px 12px;
+    color: #3060aa !important;
+    border-radius: 8px !important;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.k-icon, .k-tool-icon {
+    height: 2em !important;
+    font: 20px/1 WebComponentsIcons !important;
+}
+
+span.k-pager-sizes.k-label .k-dropdown {
+    height: 20px;
+    margin: -2px;
+}
+
   .k-picker-wrap .k-input {
       background-color: #edf3fa !important;
   }
