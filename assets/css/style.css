@@ -466,7 +466,16 @@
       transform: translateY(-3px);
       box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
   }
-  
+  button.btn {
+    border: none !important;
+    border-radius: 8px;
+}
+
+.btn.btn-md {
+    padding: 12px 24px !important;
+    margin: 0 5px !important;
+}
+
   button.btn i {
       padding: 0px 5px;
   }
@@ -1634,8 +1643,7 @@
       background-color: transparent !important
   }
   
-  .k-datepicker,
-.k-dropdown {
+  .k-datepicker{
     background: transparent !important;
     border: 1px solid #d3e0f5;
     height: 38px;
@@ -1645,6 +1653,18 @@
     font-size: 14px;
     margin: 5px 0;
 }
+
+.k-dropdown {
+    background: transparent !important;
+    border: 1px solid #d3e0f5;
+    margin: 10px 0;
+    background-color: #eff5ff !important;
+    color: #3060aa !important;
+    border-radius: 8px !important;
+    font-size: 14px;
+
+}
+
 
 span.k-picker-wrap.k-state-default,
 span.k-dropdown-wrap.k-state-default {
@@ -1656,7 +1676,7 @@ span.k-dropdown-wrap.k-state-default {
     color: #3060aa !important;
     border-radius: 8px !important;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 0;
 }
 
 .k-icon, .k-tool-icon {
