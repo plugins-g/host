@@ -3852,7 +3852,7 @@ span.k-pager-sizes.k-label .k-dropdown {
       border: 2px solid var(--maincolor) !important;
       background-color: transparent !important;
       color: #000 !important;
-      border-radius: 5px
+      border-radius: 8px
   }
   
   button.btn.btn-outline-primary.waves-effect {
