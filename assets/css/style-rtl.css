@@ -3413,15 +3413,7 @@ span.k-widget.k-datetimepicker.k-header.form-control .k-picker-wrap.k-state-defa
       font-weight: 700 !important;
       font-size: 15px !important
   }
-  
-  #PatientSearchForm {
-      position: relative;
-      background: #fff;
-      border-radius: 3px;
-      padding: 5px;
-      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-      border-top: 2px solid var(--maincolor)
-  }
+
   
   #PatientSearchForm .md-form input {
       padding: 0 0 !important
