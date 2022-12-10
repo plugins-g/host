@@ -292,6 +292,11 @@
   .btn {
       font-weight: 700;
       transition: all 0.3s ease-in-out;
+      border: none !important;
+      border-radius: 8px;
+      padding: 12px 24px !important;
+      margin: 5px 3px !important;
+      font-size: 13px;
   }
   button.btn {
     border: none !important;
@@ -300,7 +305,8 @@
 
 .btn.btn-md {
     padding: 12px 24px !important;
-    margin: 10px 5px;
+    margin: 5px 3px !important;
+    font-size: 13px;
 }
   button.btn i {
       padding: 0px 5px;
@@ -1260,9 +1266,10 @@
   
   input.form-control {
     border: 1px solid #d3e0f5;
-    height: 45px;
+    height: 43px !important;
     background-color: #eff5ff !important;
     padding: 5px 12px;
+    margin: 5px 0;
     color: #3060aa;
     border-radius: 8px !important;
     transition: all .2s cubic-bezier(.35,0,.25,1);
@@ -1272,6 +1279,7 @@
   
   input.select-dropdown.form-control {
       background-color: transparent !important;
+      border: none !important;
   }
   
   .panel-heading p {
@@ -1293,12 +1301,16 @@
   }
   
   .custom-select {
-      border: none !important;
-      border-radius: 0 !important;
+      border: 1px solid #d3e0f5 !important;
+      height: 45px;
+      border-radius: 8px !important;
       border-bottom: 1px solid #ced4da !important;
       background-color: #edf3fa;
   }
-  
+  .browser-default.custom-select {
+    margin: 5px 0;
+    height: 42px;
+}
   #PatientSearchForm .form-group,
   #Search .form-group {
       padding: 0 5px
@@ -1332,6 +1344,7 @@
     border-radius: 8px !important;
     transition: all .2s cubic-bezier(.35,0,.25,1);
     font-size: 14px;
+    margin: 5px 0;
 }
   .clear-padding {
       padding: 0 !important;
@@ -1506,6 +1519,7 @@
   .k-timepicker .k-input {
       background-color: transparent !important
   }
+
   .k-datepicker {
     background: transparent !important;
     border: 1px solid #d3e0f5;
@@ -1516,7 +1530,9 @@
     font-size: 14px;
     margin: 5px 0;
 }
-
+.k-datepicker input.form-control {
+    height: calc(1.5em + 0.75rem + 0px) !important;
+}
 .k-dropdown {
     background: transparent !important;
     border: 1px solid #d3e0f5;
@@ -1525,11 +1541,12 @@
     color: #3060aa !important;
     border-radius: 8px !important;
     font-size: 14px;
-    margin: 9px 0;
+    margin: 5px 0;
 }
 
 span.k-picker-wrap.k-state-default,
-span.k-dropdown-wrap.k-state-default {
+span.k-dropdown-wrap.k-state-default,
+span.k-dropdown-wrap.k-state-disabled {
     background: transparent !important;
     border: 1px solid #d3e0f5 !important;
     height: 30px;
@@ -1541,10 +1558,8 @@ span.k-dropdown-wrap.k-state-default {
     line-height: 20px;
 }
 .k-icon, .k-tool-icon {
-
     height: 2em !important;
     font: 20px/1 WebComponentsIcons !important;
-
 }
 
 span.k-pager-sizes.k-label .k-dropdown {
@@ -1683,7 +1698,16 @@ span.k-pager-sizes.k-label .k-dropdown {
       margin: 5px 0 !important;
       padding: 0 !important
   }
-  
+  span.k-widget.k-datetimepicker.k-header.form-control,
+span.k-widget.k-datetimepicker.k-header.form-control .k-picker-wrap.k-state-default .form-control {
+    background: transparent !important;
+}
+
+    span.k-widget.k-datetimepicker.k-header.form-control .k-picker-wrap.k-state-default {
+        height: 42px !important;
+        padding: 0px 12px !important;
+    }
+
   span.k-widget.k-dropdown.k-header {
       background-color: rgb(211 225 244 / 41%) !important;
   }
@@ -1760,7 +1784,12 @@ span.k-pager-sizes.k-label .k-dropdown {
       background-color: #daebff !important;
       color: #008000 !important;
   }
-  
+  .k-state-hover {
+    box-shadow: none !important;
+}
+.k-multiselect .k-icon:before {
+    height: 35px !important;
+}
   /*============================*/
   
   .btn-success {
@@ -2708,7 +2737,7 @@ span.k-pager-sizes.k-label .k-dropdown {
   
   footer.page-footer .footer-copyright {
       overflow: hidden;
-      background-color: none !important;
+      background: transparent !important;
       background: #fff !important;
       color: #000 !important;
       z-index: -1;
@@ -3435,6 +3464,7 @@ span.k-pager-sizes.k-label .k-dropdown {
       padding: .75rem 10px !important;
       color: var(--maincolor) !important;
       font-weight: 700;
+      border-radius: 8px;
       font-size: 13px;
       cursor: pointer;
       background-color: #fff;
@@ -5612,7 +5642,7 @@ span.k-pager-sizes.k-label .k-dropdown {
   
   .datepicker {
       width: 100%;
-      padding: 10px
+      padding: 0 !important;
   }
   
   .page-header {
@@ -5646,7 +5676,17 @@ span.k-pager-sizes.k-label .k-dropdown {
       border: none;
       border-bottom: 1px solid #ced4da !important
   }
-  
+
+  .k-multiselect-wrap.k-floatwrap {
+    background: transparent !important;
+    border: 1px solid #d3e0f5;
+    height: 38px;
+    background-color: #eff5ff !important;
+    color: #3060aa !important;
+    border-radius: 8px !important;
+    font-size: 14px;
+    margin: 5px 0;
+}
   .k-dropdown .k-state-default {
       border-color: transparent !important;
       background-position: 50% 50%;
@@ -5658,7 +5698,9 @@ span.k-pager-sizes.k-label .k-dropdown {
   span.k-picker-wrap.k-state-default {
       padding: 0 10px;
   }
-  
+  span.k-picker-wrap.k-state-default input {
+    box-shadow: none !important;
+}
   .k-autocomplete .k-input,
   .k-dropdown-wrap .k-input,
   .k-multiselect-wrap .k-input,
