@@ -1533,23 +1533,14 @@
 .k-datepicker input.form-control {
     height: calc(1.5em + 0.75rem + 0px) !important;
 }
-.k-dropdown {
-    background: transparent !important;
-    border: 1px solid #d3e0f5;
-    height: 38px;
-    background-color: #eff5ff !important;
-    color: #3060aa !important;
-    border-radius: 8px !important;
-    font-size: 14px;
-    margin: 5px 0;
-}
+
 
 span.k-picker-wrap.k-state-default,
 span.k-dropdown-wrap.k-state-default,
 span.k-dropdown-wrap.k-state-disabled {
     background: transparent !important;
     border: 1px solid #d3e0f5 !important;
-    height: 30px;
+    height: 40px;
     background-color: #eff5ff !important;
     padding: 5px 12px;
     color: #3060aa !important;
@@ -1635,7 +1626,18 @@ span.k-pager-sizes.k-label .k-dropdown {
   tr.k-filter-row {
       background: #e9ecef !important
   }
-  
+
+  .k-dropdown {
+    background: transparent !important;
+    border: 1px solid #d3e0f5;
+    height: 40px;
+    background-color: #eff5ff !important;
+    color: #3060aa !important;
+    border-radius: 8px !important;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
   .k-header.k-grid-toolbar {
       background: #e9ecef !important
   }
