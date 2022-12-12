@@ -1406,7 +1406,7 @@
       color: var(--maincolor) !important
   }
   
-  .white-skin input[type=email]:focus:not([readonly]),
+/*   .white-skin input[type=email]:focus:not([readonly]),
   .white-skin input[type=number]:focus:not([readonly]),
   .white-skin input[type=password]:focus:not([readonly]),
   .white-skin input[type=text]:focus:not([readonly]),
@@ -1414,7 +1414,7 @@
       border-color: var(--maincolor) !important;
       box-shadow: 0 1px 0 0 var(--maincolor) !important
   }
-  
+   */
   .k-dropdown-wrap .k-select,
   .k-numeric-wrap .k-select,
   .k-picker-wrap .k-select {
