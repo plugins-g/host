@@ -1690,7 +1690,7 @@ span.k-dropdown-wrap.k-state-disabled {
     color: #3060aa !important;
     border-radius: 8px !important;
     font-size: 14px;
-    line-height: 0;
+    line-height: 0px;
 }
 
 .k-icon, .k-tool-icon {
