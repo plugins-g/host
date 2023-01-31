@@ -5643,7 +5643,12 @@ span.k-widget.k-datetimepicker.k-header.form-control .k-picker-wrap.k-state-defa
       background-color: #f5f5f5 !important;
       border-bottom: 1px solid #ced4da !important
   }
-  
+
+ span.k-dropdown-wrap.k-state-default,
+  span.k-picker-wrap.k-state-default {
+      padding: 0 10px;
+  }
+
   .k-autocomplete .k-input,
   .k-dropdown-wrap .k-input,
   .k-multiselect-wrap .k-input,
