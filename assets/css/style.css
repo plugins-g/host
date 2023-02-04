@@ -1678,6 +1678,9 @@
     height: calc(1.5em + 0.75rem + 0px) !important;
 }
 
+span.k-dropdown-wrap.k-state-default, span.k-picker-wrap.k-state-default {
+    padding: 0 10px;
+}
 
 span.k-picker-wrap.k-state-default,
 span.k-dropdown-wrap.k-state-default,
