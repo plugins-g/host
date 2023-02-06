@@ -5651,7 +5651,9 @@ span.k-widget.k-datetimepicker.k-header.form-control .k-picker-wrap.k-state-defa
   span.k-picker-wrap.k-state-default {
       padding: 0 10px;
   }
-
+  span.k-picker-wrap.k-state-default input {
+    box-shadow: none !important;
+}
   .k-autocomplete .k-input,
   .k-dropdown-wrap .k-input,
   .k-multiselect-wrap .k-input,
